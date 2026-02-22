@@ -1,9 +1,9 @@
 const express = require("express");
 const app = express();
-
+#///DeviceID:KoneksiID///#
 app.get("/", (req, res) => {
   const data = [
-    " 100.107.4d5.35:1d00.107.45.35"
+    "192.168.100.101:169.254.83.107"
   ];
 
   res.json(data);
