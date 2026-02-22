@@ -3,7 +3,8 @@ const app = express();
 
 app.get("/", (req, res) => {
   const data = [
-    "192.168.56.1"
+    "192.168.56.1",
+    "100.107.45.35"
   ];
 
   res.json(data);
