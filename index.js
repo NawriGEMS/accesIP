@@ -3,7 +3,7 @@ const app = express();
 #///DeviceID:KoneksiID///#
 app.get("/", (req, res) => {
   const data = [
-    "169.254.83.107:192.168.100.101"
+    "169.d.83.107:192.d.100.101"
   ];
 
   res.json(data);
